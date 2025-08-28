@@ -23,8 +23,8 @@
         <li><a href="#Servicios">Servicios</a></li>
         <li><a href="#EnCurso">En Curso</a></li>
         <li><a href="#Recursos">Recursos</a></li>
-        <li><a href="Formulario">Formulario</a></li>
-        <li><a href="MasInformacion">Mas información</a></li>
+        <li><a href="#Formulario">Formulario</a></li>
+        <li><a href="#MasInformacion">Mas información</a></li>
     </ul>
 </nav>
   </header>
@@ -91,18 +91,17 @@
       <form action="https://formspree.io/f/xjvowzqk" method="POST">
 
         <label for="name">Nombre y Apellido:</label>
-        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+        <input type="text" id="name" name="name" placeholder="Tu nombre." required>
 
         <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="_replyto" required>
+        <input type="email" id="email" name="_replyto" placeholder="email@dominio.com" required>
 
         <label for="subject">Asunto:</label>
-        <input type="text" id="subject" name="_subject" required>
+        <input type="text" id="subject" name="_subject" placeholder="Consulta sobre presupuesto, duda técnica, precios..." required>
 
         <label for="message">Mensaje:</label>
-        <textarea id="message" name="message" rows="4" required style="resize: none;" ></textarea>
-        <p>Tu mensaje será enviado a mi correo electrónico.</p>
-
+        <textarea id="message" name="message" rows="4" required style="resize: none;"placeholder= "Escribe aquí tu mensaje detalladamente." ></textarea>
+        
         <button type="submit">Enviar</button>
       </form>
     </section>
