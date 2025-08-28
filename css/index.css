@@ -81,13 +81,26 @@ button:active {
     color: #f0f0f0; /* Mantiene el color del texto al hacer clic */
 }
 
-form {
-  max-width: 100%;
-  margin: 2%;
-  padding: 2%;
-  background: rgb(71, 66, 66);
-  border-radius: 8px;
+#Formulario{
+   background: rgba(88, 87, 87, 0.95);
+   backdrop-filter: blur(10px);
+   border-radius: 20px;
+   padding: 20px;
+   box-shadow: 0 20px 40px rgba(231, 230, 230, 0.1);
+   width: 100%;
+   max-width: 500px;
+   transform: translateY(0);
+   text-align: left;
+   margin: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
 
 textareay {
     display: block;
