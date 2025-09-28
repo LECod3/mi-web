@@ -1,6 +1,6 @@
-# My First Website
+# Mi primera pagina web
 
-This is my first website, created as part of the Rolling Code W19 course.
+Creada como un proyecto para el cursado en Rolling Code W-19
 
 ## Demo
 https://lecod3.github.io/mi-web/
